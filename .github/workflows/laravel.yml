@@ -17,6 +17,8 @@ jobs:
         php-version: '8.0'
     - uses: actions/checkout@v3
     - name: Change Directory
+      run: pwd
+    - name: Change Directory
       run: cd ../backend
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
