@@ -19,6 +19,8 @@ jobs:
     - name: Change Directory
       run: pwd
     - name: Change Directory
+      run: ls
+    - name: Change Directory
       run: cd "backend"
     - name: Change Directory
       run: pwd
