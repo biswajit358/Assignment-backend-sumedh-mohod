@@ -19,7 +19,7 @@ jobs:
     - name: Change Directory
       run: pwd
     - name: Change Directory
-      run: cd backend
+      run: cd "backend"
     - name: Change Directory
       run: pwd
     - name: Copy .env
